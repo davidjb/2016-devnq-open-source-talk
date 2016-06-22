@@ -94,7 +94,7 @@ Notes:
 
 
 
-* **Early 2013**: started integration of nginx/Shibboleth
+* **Early 2013**: started on nginx/Shibboleth auth
 
   ![nginx](img/nginx.svg) <!-- .element: class="plain stretch" style="width: 200px;" -->
   ![Shibboleth](img/shibboleth.png) <!-- .element: class="plain stretch" style="width: 200px;" -->
@@ -161,6 +161,7 @@ Notes:
   * Solves things you haven't thought of yet
   * Good for security etc
 * Freedom: an open licence means you can extend, reuse etc the work. 
+  * Some caveats with licensing: see later
   * Compare to a closed-source model; you can't even tell if it's working
     correctly without black-boxing.
   * I own a BT remote control car that's now unusable because the original dev
@@ -175,21 +176,23 @@ Notes:
 ## Helps you
 
 * Warm fuzzy feeling
-* Skills + CV + public profile
+* Skills + CV
+* Public profile
 
 Notes:
-* Equivalent of thinking 'I need to toast bread' and you can get a world-class
-  toaster at likely no charge that you can hack on.
 * Employers looking for contributors through GH profiles etc
 * But that's not all...
 
 ---
 
+<!-- .slide: data-background="#0066aa" -->
 ## Open source doesn't discriminate.
 
 Notes:
-* The joy of open source is that it doesn't discriminate. The code is there
-  and it's available for anyone to do what they will with it.
+* The joy of open source is that it doesn't discriminate.
+* The code is there and it's available for anyone to do what they will with
+  it.
+* Not like proprietary licensing - no sharing, cost, etc
 * This is why it's important to help.
 
 ---
@@ -203,41 +206,45 @@ Notes:
 
 
 * Use/test open source apps or projects
-* Evangelise
 * Write docs or content
 * Report bugs
 * Contribute fixes
 * Share your work / code
 * Donate
+* Evangelise
 
 Notes:
 * Financial member of the Python Software Foundation
 
 
+<!-- .slide: data-background="#074" -->
 ## Starting out?
 
 Begin with a real problem & think about:
 
 * Pain points
-* Better documentation
-* Unfixed bugs
-* New features
+* Help/documentation
+* Problems/bugs
+* New solutions
 
 Notes:
-* Anyone not contributed to open source before?
+* Could be either an existing O/S project or something new
+* Start small and find your feet, skill up.
 * Best if you've got a business need or non-hobby purpose
+* Any other suggestions?
 * You'll know the pain points of the software you're using
 * Eventually you'll hit an unfixed bug or implement a new feature you need
 * Or software that needs to be implemented
 
 ---
 
-## Key info
+## Projects
 
 * Every project is different
-* Larger projects have contributor guides & structure
+* Larger projects have contributor  
+  guides & structure
 * Be humble
-* Accept rejection
+* Accept criticism & rejection
 * **Be professional**
 
 Notes:
@@ -276,11 +283,11 @@ Notes:
 * Check the `develop` branch
 * Reach out before big changes
 * Send complete patches / PRs 
-* Add tests where possible
-  * Continuous Integration (CI) often used
 * Adhere to code style & guides
+* Add tests where possible
+  * Auto-testing (Continuous Integration) often used
 
-![Travis CI logo](img/travis-ci.png) <!-- .element class="plain" style="width: 200px;"-->
+![Travis CI logo](img/travis-ci.png) <!-- .element class="plain stretch" -->
 
 Notes:
 * Reach out for anything you're unsure about: bug report, feature suggestion,
@@ -296,10 +303,14 @@ Notes:
 
 > You get **copyright** on what you create and **license** it to others to use.
 
-Licences impose restrictions on (re-)use or grant specific rights.
+Licences grant specific rights and impose restrictions on re/use.
 
 Notes:
-* Not a laywer
+* Not a lawyer!
+* Some licences allow you to anything (MIT)
+* Some require you to attribute in a certain way
+* Some control what licence projects using it must have (GNU Public
+  Licence/GPL)
 
 
 ## When contributing
@@ -314,16 +325,18 @@ Notes:
 
 ## When open sourcing
 
+* Consult [choosealicense.com](choosealicense.com) and
+  [tldrlegal.com](https://tldrlegal.com)
 * Think about your values
 * Think about code reuse
 * "Fun" licences (eg Beerware) might be harmful
-* Consult [choosealicence.com](choosealicence.com) and
-  [tldrlegal.com](https://tldrlegal.com)
 
 Notes:
 * Using something like the GPL means redistribution requires inclusion of
   derived code
 * Prevents closed-source use of your code
+* Fun licences usually aren't clear enough (eg beerware is unclear, doesn't
+  limit liability etc)
 
 ---
 
@@ -331,16 +344,17 @@ Notes:
 
 *tl;dr*: just put it online w/ licence
 
-* Set up a repo and issue tracker (eg GitHub)
-* Promote if you want, but people will find you
-* No obligation to provide support or accept changes
-* Ensure you have right to open source
+* Set up repo & issue tracker (eg GitHub)
+* Promote, but people will find you
+* Ensure you have rights to open source
+* No obligations to support your code
 * Choose your licence carefully
 
 ![VLC icon](img/vlc.svg) <!-- .element class="plain" style="height: 100px;" -->
 
 Notes:
 * You might need legal auth from your company
+* No responsibility/obligation to provide support or time to anyone for your code
 * LibVLC was relicensed from GPL to LGPL for allowing use in closed-source
   projects.  Involved getting permission from 450+ people throughout decades
   of development.
@@ -349,11 +363,12 @@ Notes:
   used.
 
 
+<!-- .slide: data-background-image="img/fire.jpg" -->
 ### Running a project
 
 * Clear licence and copyright
-* Have clear contributor guidelines
-* Be inviting, courteous and open
+* Have contributor guidelines
+* Be inviting and engage contributors
 * Funding: Gittip, bounties, donations (if desired)
 * **Communication is key**
 
@@ -370,16 +385,20 @@ Notes:
 
 ## What's next?
 
-Open sources means freedom to change
+Open source means freedom
+
+Notes:
+Don't like something? Change it!
 
 ---
 
 1. Contribute your first fix (eg [mine](https://github.com/cherokee/web/pull/5))
-1. Learn Git (version control)
-1. Create code host profiles (GitHub, BitBucket, GitLab)
+1. Learn version control (Git)
+1. Create code host profiles  
+   (GitHub, BitBucket, GitLab)
 1. Share your code
 1. Read about licensing
-1. Keep contributing!
+1. Contribute in your own way
 1. **Be professional**
 
 Notes:
