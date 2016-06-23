@@ -317,10 +317,15 @@ Notes:
 
 * Check the `LICENSE` file
 * Ensure you can use the project
-* You may be required to assign your copyright to the project's owner
+* You may be required to assign copyright to the project's owner
   (eg a Foundation)
+* Some countries are different
 
 ![licence plate](img/licence-plate.jpg)
+
+Notes:
+* French law doesn't have a notion of copyright but rather an *author rights*
+  system
 
 
 ## When open sourcing
@@ -344,23 +349,23 @@ Notes:
 
 *tl;dr*: just put it online w/ licence
 
-* Set up repo & issue tracker (eg GitHub)
-* Promote, but people will find you
+* Setup repo & issue tracker (eg GitHub)
+* Promote or not: people will find you
 * Ensure you have rights to open source
-* No obligations to support your code
-* Choose your licence carefully
-
-![VLC icon](img/vlc.svg) <!-- .element class="plain" style="height: 100px;" -->
+* No obligation to support your code
+* Choose licences carefully
+  ![VLC icon](img/vlc.svg) <!-- .element class="plain middle" style="max-height: 100px;" -->
 
 Notes:
 * You might need legal auth from your company
 * No responsibility/obligation to provide support or time to anyone for your code
 * LibVLC was relicensed from GPL to LGPL for allowing use in closed-source
-  projects.  Involved getting permission from 450+ people throughout decades
-  of development.
-* Or rewrite their contributions
+  projects (competitive edge).  Involved getting permission from 450+ people
+  throughout 10+ years of development.
+* Or determine/delete/rewrite their contributions
 * Great post from Jean-Baptise Kempf of VLC about how he did it. "Stalking" is
   used.
+* How to properly(?) relicense a large open source project
 
 
 <!-- .slide: data-background-image="img/fire.jpg" -->
